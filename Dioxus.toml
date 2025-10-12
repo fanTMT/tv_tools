@@ -1,0 +1,30 @@
+[application]
+name = "tv_tool"
+
+icon = ["assets/icon.png"]
+
+[web.app]
+
+# HTML title tag content
+title = "tv_tool"
+
+# include `assets` in web platform
+[web.resource]
+
+# Additional CSS style files
+style = []
+
+# Additional JavaScript files
+script = []
+
+[web.resource.dev]
+
+# Javascript code file
+# serve: [dev-server] only
+script = []
+
+
+[bundle]
+identifier = "com.tvtool"
+publisher = "tv_tool"
+icon = ["assets/icon.png"]
