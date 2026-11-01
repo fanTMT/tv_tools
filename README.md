@@ -1,34 +1,5 @@
-# Development
+# Vue 3 + TypeScript + Vite
 
-Your new jumpstart project includes basic organization with an organized `assets` folder and a `components` folder.
-If you chose to develop with the router feature, you will also have a `views` folder.
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-```
-project/
-├─ assets/ # Any assets that are used by the app should be placed here
-├─ src/
-│  ├─ main.rs # The entrypoint for the app. It also defines the routes for the app.
-│  ├─ components/
-│  │  ├─ mod.rs # Defines the components module
-│  │  ├─ hero.rs # The Hero component for use in the home page
-│  │  ├─ echo.rs # The echo component uses server functions to communicate with the server
-│  ├─ views/ # The views each route will render in the app.
-│  │  ├─ mod.rs # Defines the module for the views route and re-exports the components for each route
-│  │  ├─ blog.rs # The component that will render at the /blog/:id route
-│  │  ├─ home.rs # The component that will render at the / route
-├─ Cargo.toml # The Cargo.toml file defines the dependencies and feature flags for your project
-```
-
-### Serving Your App
-
-Run the following command in the root of your project to start developing with the default platform:
-
-```bash
-dx serve --platform desktop
-```
-
-To run for a different platform, use the `--platform platform` flag. E.g.
-```bash
-dx serve --platform desktop
-```
-
+Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
